@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width:1500px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    background-image: url("./image/S_confirmation.png");
+    background-position-y: bottom;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    background-color: #00A3FF;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.nav-img{
+    display: block;
+    margin: 235px auto 0 auto;
+}
+.nav-text{
+    display: block;
+    color: #fff;
+    margin: 0 30px;
+    text-align: center;
+    padding: 24px 0;
+    line-height: 1.6rem;
+}
+.main{
+    
+}

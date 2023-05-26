@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="getById">gẻtElementByID</h1>
+    <h1>getElementByTagname</h1>
+    <h1 class="getByClass">getElementByClassName</h1>
+    <h1 class="getByClass"></h1>
+    <script>
+        console.log(document.getElementById('getById'))
+        console.log(document.getElementsByTagName('h1'))
+        console.log(document.getElementsByClassName('getByClass'))
+        console.log(document.querySelector('.getByClass'))
+        console.log(document.querySelectorAll('.getByClass'))
+
+        // Xác định phần tử
+        var h1 = document.getElementById('getById');
+        // Đưa ra chỉ thị
+        h1.innetHTML = 'Thay đổi nội dung';
+        console.log(h1.innerHTML);
+        // thay đổ giá trị thuộc tính
+        console.log(h1.attributes);
+        // thay đổi Css
+        
+    </script>
+</body>
+</html>

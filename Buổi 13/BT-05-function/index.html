@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function chuanHoaChuoi(planText){
+            let textResult = [];
+            //tách chuỗi thành mảng
+            let arr = planText.split(' ');
+            //Duyệt mảng từng từ trong chuỗi đó và chuẩn hoá
+            for(let word of arr){
+                let firstChar = word.charAt(0).toLocaleUpperCase(0);
+                let result = firstChar + word.toLocaleLowerCase().substring(1);
+                textResult.push(result);
+            }
+            console.log(textResult.join(' '));
+        }
+        var txt = "START index up to and";
+        chuanHoaChuoi(txt);
+    </script>
+</body>
+</html>

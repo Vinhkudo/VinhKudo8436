@@ -1,0 +1,62 @@
+.bai03{
+    background-color: #F2F3F5;
+}
+body{
+    height: 50%;
+    width: 50%;
+}
+.abcd{  
+    line-height: 50%;
+}
+.a{
+    display: flex;
+    padding: 0;
+}
+.grid{
+    list-style: none;
+    width: 45%;
+}
+.grid1{
+    list-style: none;
+    width: 55%;
+    margin-left: 20px;
+}
+.e{
+    background-color: #5B9BD5;
+    height: 200px;
+    border-radius: 10px;
+}
+.d h3{
+    margin-right: 75px;
+}
+.chia_nho{
+    display: flex;
+    padding: 0;
+}
+.border{
+    border-bottom: 1px dashed #E2D8D9;
+    margin: 15px 0px;
+}
+.chia1{
+    background-color: #D997DC;
+    list-style: none;
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+}
+.chia1 p {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.chia2{
+    list-style: none;
+    width: 80%;
+    margin-left: 20px;
+}
+.chia2 h4, .chia2 p{
+    margin: 0;
+}

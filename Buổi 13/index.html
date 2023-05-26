@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script src="./main.js"></script> -->
+    <script>
+        var numbers = [1,2,3,4,55,-777,85,-865];
+        function ktSoDuong(num){
+            if(num < 0)
+                return false;
+            else
+                return true;
+        }
+
+        function timsoDuong(arr){
+            for (let item of arr){
+                if(ktSoDuong(item))
+                    console.log(item);
+            }
+        }
+        function ktSoAm(num){
+            if(num > 0)
+                return false;
+            else
+                return true;
+        }
+        function timsoAm(arr){
+            for (let item of arr){
+                if(ktSoAm(item))
+                    console.log(item);
+            }
+        }
+
+        function timKiem(arr, callback){
+            for(let item of arr){
+                if(callback(item))
+                    console.log(item);
+            }
+        }
+
+        timsoAm(numbers);
+        timsoDuong(numbers);
+        console.log('function callback')
+        timKiem(numbers, num => num >= 0); // dùng arrow thay vì phải dùng từng lần như trên 
+        timKiem(numbers, num => num < 0);
+
+
+        
+
+
+
+    </script>
+
+</body>
+</html>
